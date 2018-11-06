@@ -1,0 +1,82 @@
+.jbjocrb{
+     margin-bottom:1em;
+}
+ .jbjocrb label, .jbjocrb input {
+     display:block;
+    /* position:absolute;
+     */
+     top:0;
+     right:0;
+     right:0;
+     bottom:0;
+}
+ .jbjocrb input[type="checkbox"] {
+     opacity:0.011;
+     z-index:100;
+     position:absolute;
+}
+ .jbjocrb input[type="checkbox"]:checked + label {
+    /* background:#a81831;
+     */
+     background:green;
+     color:white;
+}
+ .jbjocrb label {
+     padding:5px;
+     border:1px solid #EAE6E6;
+     cursor:pointer;
+     box-shadow: 0 10px 7px -7px gray;
+     z-index:90;
+     width:7em;
+}
+ .jbjocrb label:hover {
+     background:#00a3cc;
+     color:white;
+     box-shadow: 0 14px 7px -7px gray;
+}
+ .progressBar {
+     height: 20px;
+    /* Can be anything */
+     position: relative;
+     background: white;
+     border:1px solid #ccc;
+     -moz-border-radius: 25px;
+     -webkit-border-radius: 25px;
+     border-radius: 25px;
+}
+ .progressBar > span {
+     display: block;
+     height: 100%;
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
+     background-color: gray;
+     position: relative;
+     overflow: hidden;
+}
+ .floatLeft{
+     float:left;
+}
+ .floatRight{
+     float:right;
+}
+ .username{
+     width:100%;
+     margin-bottom:1em;
+}
+ .testSelect{
+     width:100%;
+    margin-bottom:1em 
+}
+ .buttonContainer{
+     margin:auto;
+    width:20% 
+}
+ .title{
+     text-align:center 
+}
+ .formContainer{
+     margin:auto;
+    width:20%;
+    vertical-align:middle 
+}
+ 
